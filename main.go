@@ -47,13 +47,19 @@ func main() {
 	each of the question*/
 
 	//answer number 1
-	var length, i int32
-	_, _ = fmt.Scanln(&length)
+	//var length, i int32
+	//_, _ = fmt.Scanln(&length)
+	//
+	//var arr = make([]int32, length)
+	//for i = 0; i < length; i++ {
+	//	_, _ = fmt.Scanln(&arr[i])
+	//}
+	//fmt.Println(number1(length, arr))
 
-	var arr = make([]int32, length)
-	for i = 0; i < length; i++ {
-		_, _ = fmt.Scanln(&arr[i])
-	}
-	fmt.Println(number1(length, arr))
+	//answer number 2
+	var n int32
+	var s string
 
+	_, _ = fmt.Scanln(&n, &s)
+	fmt.Println(number2(n, s))
 }
