@@ -82,9 +82,15 @@ func main() {
 	//fmt.Println(number1(length, arr))
 
 	//answer number 2
-	var n int32
-	var s string
+	//var n int32
+	//var s string
+	//
+	//_, _ = fmt.Scanln(&n, &s)
+	//fmt.Println(number2(n, s))
 
-	_, _ = fmt.Scanln(&n, &s)
-	fmt.Println(number2(n, s))
+	//answer number 3
+	var N int
+	_, _ = fmt.Scanln(&N)
+
+	number3(N)
 }
