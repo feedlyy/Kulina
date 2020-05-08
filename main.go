@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// Complete the sockMerchant function below.
 func number1(n int32, ar []int32) int32 {
 	var pair, i int32
 
@@ -21,6 +20,26 @@ func number1(n int32, ar []int32) int32 {
 	}
 
 	return pair
+}
+
+func number2(n int32, s string) int32 {
+	var valley, seaLevel, i int32
+
+	seaLevel = 0
+
+	for i = 0; i < int32(len(s)); i++ {
+		if s[i:i+1] == "D" {
+			seaLevel -= 1
+		} else if s[i:i+1] == "U" {
+			seaLevel += 1
+		}
+
+		if seaLevel == 0 && s[i:i+1] == "U" {
+			valley += 1
+		}
+	}
+
+	return valley
 }
 
 func main() {
