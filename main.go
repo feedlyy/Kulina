@@ -25,7 +25,7 @@ func number1(n int32, ar []int32) int32 {
 
 func main() {
 	/*please comment or uncomment for testing
-	the answer of the question*/
+	each of the question*/
 
 	//answer number 1
 	var length, i int32
