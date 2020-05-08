@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func number1(n int32, ar []int32) int32 {
 	var pair, i int32
@@ -40,6 +43,28 @@ func number2(n int32, s string) int32 {
 	}
 
 	return valley
+}
+
+func number3(n int) {
+
+	//make a dynamic zero string
+	init := strconv.Itoa(n)
+	zero := ""
+	for x := 0; x < len(init)-1; x++ { //len - 1 because the x start from 0 (incursion)
+		zero += "0"
+	}
+
+	//make index for zero string
+	index := 0
+
+	for _, item := range init {
+		if item == 48 { //skip when item is 0 / 48 byte ascii
+			index += 1
+			continue
+		}
+		fmt.Println(string(item) + zero[index:])
+		index += 1
+	}
 }
 
 func main() {
