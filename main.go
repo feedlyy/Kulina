@@ -71,7 +71,7 @@ func main() {
 	/*please comment or uncomment for testing
 	each of the question*/
 
-	//answer number 1
+	//answer number 1, input: n/length of array, array
 	//var length, i int32
 	//_, _ = fmt.Scanln(&length)
 	//
@@ -81,14 +81,14 @@ func main() {
 	//}
 	//fmt.Println(number1(length, arr))
 
-	//answer number 2
+	//answer number 2, input: n, s (string)
 	//var n int32
 	//var s string
 	//
 	//_, _ = fmt.Scanln(&n, &s)
 	//fmt.Println(number2(n, s))
 
-	//answer number 3
+	//answer number 3, input: n
 	var N int
 	_, _ = fmt.Scanln(&N)
 
