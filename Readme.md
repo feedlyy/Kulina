@@ -7,7 +7,7 @@ https://golang.org/dl/
 ##### 2. Clone the repository
 
 ```bash
-git clone https://github.com/feedlyy/DomaiNesia-BE.git
+git clone https://github.com/feedlyy/Kulina.git
 ```
 
 ## HOW TO USE
